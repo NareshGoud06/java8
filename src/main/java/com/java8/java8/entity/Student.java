@@ -6,14 +6,16 @@ public class Student {
     private int age;
     private String city;
     private String grade;
+    private String country;
     private double totalMarks;
 
-    public Student(String name, int age, String city, String grade, double totalMarks) {
+    public Student(String name, int age, String city, String grade, double totalMarks,String country) {
         this.name = name;
         this.age = age;
         this.city = city;
         this.grade = grade;
         this.totalMarks = totalMarks;
+        this.country = country;
     }
 
     public String getName() {
@@ -63,6 +65,7 @@ public class Student {
                 ", age=" + age +
                 ", city='" + city + '\'' +
                 ", grade='" + grade + '\'' +
+                ", country='" + country + '\'' +
                 ", totalMarks=" + totalMarks +
                 '}';
     }
