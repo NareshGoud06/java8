@@ -6,8 +6,8 @@ public class Student {
     private int age;
     private String city;
     private String grade;
-    private String country;
     private double totalMarks;
+    private String country;
 
     public Student(String name, int age, String city, String grade, double totalMarks,String country) {
         this.name = name;
