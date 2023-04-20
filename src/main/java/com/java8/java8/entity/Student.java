@@ -5,6 +5,8 @@ public class Student {
     private String name;
     private int age;
     private String city;
+
+    private String country;
     private String grade;
     private double totalMarks;
 
@@ -62,6 +64,7 @@ public class Student {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", city='" + city + '\'' +
+                ", country='" + country + '\'' +
                 ", grade='" + grade + '\'' +
                 ", totalMarks=" + totalMarks +
                 '}';
